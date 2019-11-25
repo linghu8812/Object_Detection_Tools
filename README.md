@@ -4,7 +4,7 @@ A list of files used for processing object datasets such as VOC<sup>[1]</sup> or
 ## Insturction Table
 File|Instuction
 -----|-----
-[select_voc_coco.py](https://github.com/linghu8812/Object_Detection_Tools/blob/master/select_voc_coco.py)|select VOC and COCO datasets images with person, car, bus, truck, bicycle, motorcycle labels. 
+[select_voc_coco.py](select_voc_coco.py)|select VOC and COCO datasets images with person, car, bus, truck, bicycle, motorcycle labels. 
 
 ## Reference
 [1] **PASCAL VOC dataset**: http://host.robots.ox.ac.uk/pascal/VOC/ <br>
