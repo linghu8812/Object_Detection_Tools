@@ -81,8 +81,9 @@ def main(phase='train'):
             else:
                 continue
 
-            with open(label_name, 'r') as f:
-                labels = f.readlines()
+            if os.path.exists(label_name):
+                with open(label_name, 'r') as f:
+                    labels = f.readlines()
             final_labels = transform_labels(labels, class_ids, dataset)
             if len(final_labels) == 0:
                 continue
