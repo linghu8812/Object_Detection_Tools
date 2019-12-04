@@ -5,6 +5,7 @@ A list of files used for processing object datasets such as VOC<sup>[1]</sup> or
 File|Instuction
 -----|-----
 [select_voc_coco.py](select_voc_coco.py)|select VOC and COCO datasets images with person, car, bus, truck, bicycle, motorcycle labels. 
+[voc_all_map.py](voc_all_map.py)|evaluate mAP of VOC Dataset
 
 ## Reference
 [1] **PASCAL VOC dataset**: http://host.robots.ox.ac.uk/pascal/VOC/ <br>
