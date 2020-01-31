@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-map_iou = {'iteration': [], 'AP': [], 'AP50': [], 'AP75': []}
-map_giou = {'iteration': [], 'AP': [], 'AP50': [], 'AP75': []}
+map_iou = {'iteration': [0], 'AP': [0], 'AP50': [0], 'AP75': [0]}
+map_giou = {'iteration': [0], 'AP': [0], 'AP50': [0], 'AP75': [0]}
 
 best_iou = {'iteration_50': -1, 'best_50': 0,
             'iteration_75': -1, 'best_75': 0, 

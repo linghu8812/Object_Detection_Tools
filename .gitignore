@@ -1,1 +1,8 @@
 .idea/
+data/
+results/
+results416/
+
+*.txt
+*.png
+darknet
